@@ -7,7 +7,6 @@ public class Arraylargest {
         int max = nums[0];
         int length = nums.length;
         int sum = 0;
-        boolean found = false;
         for (int i = 0; i < length; i++) {
             if (nums[i] > max) {
                 max = nums[i];
